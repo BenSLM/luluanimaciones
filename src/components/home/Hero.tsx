@@ -101,8 +101,9 @@ export function Hero() {
             >
               <div className="h-full w-full overflow-hidden rounded-xs">
                 <img
-                  src={asset("images/galeria/pintacarita-spiderman-1080.webp")}
-                  alt="Invitado luciendo un diseño de pintacaritas de colores"
+                  src={asset("images/galeria/foto-grupal-1-1080.webp")}
+                  srcSet={`${asset("images/galeria/foto-grupal-1-640.webp")} 640w, ${asset("images/galeria/foto-grupal-1-1080.webp")} 1080w`}
+                  alt="Niños celebrando junto a la animadora en una fiesta de cumpleaños"
                   loading="lazy"
                   decoding="async"
                   className="h-full w-full object-cover"
