@@ -11,7 +11,7 @@ pnpm dev
 
 ## Optimización de fotos
 
-Las fotos reales van en `fotos/` (ignoradas por git). Para convertirlas a WebP optimizados en `public/images/galeria/`:
+Las fotos reales van en `fotos/` (ignoradas por git) en formato JPEG, PNG o WebP. Para convertirlas a WebP optimizados en `public/images/galeria/`:
 
 ```bash
 pnpm images

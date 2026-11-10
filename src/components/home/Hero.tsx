@@ -86,10 +86,10 @@ export function Hero() {
               className="group col-span-3 row-span-6 overflow-hidden rounded-burbuja bg-rosa-suave shadow-[0_30px_60px_-15px_rgba(43,36,56,0.4)]"
             >
               <img
-                src={asset("images/galeria/foto-grupal-payaso-lulu-1080.webp")}
-                srcSet={`${asset("images/galeria/foto-grupal-payaso-lulu-640.webp")} 640w, ${asset("images/galeria/foto-grupal-payaso-lulu-1080.webp")} 1080w`}
+                src={asset("images/galeria/lulu-y-nina-feliz-1080.webp")}
+                srcSet={`${asset("images/galeria/lulu-y-nina-feliz-640.webp")} 640w, ${asset("images/galeria/lulu-y-nina-feliz-1080.webp")} 1080w`}
                 sizes="(min-width: 1024px) 45vw, 90vw"
-                alt="Animadora de Lulu disfrazada de payaso compartiendo con un grupo de niños durante una fiesta"
+                alt="Animadora de Lulu cargando a una niña pintada frente a un castillo inflable"
                 className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
                 fetchPriority="high"
               />
@@ -101,9 +101,9 @@ export function Hero() {
             >
               <div className="h-full w-full overflow-hidden rounded-xs">
                 <img
-                  src={asset("images/galeria/foto-grupal-1-1080.webp")}
-                  srcSet={`${asset("images/galeria/foto-grupal-1-640.webp")} 640w, ${asset("images/galeria/foto-grupal-1-1080.webp")} 1080w`}
-                  alt="Niños celebrando junto a la animadora en una fiesta de cumpleaños"
+                  src={asset("images/galeria/foto-grupal-nocturna-1080.webp")}
+                  srcSet={`${asset("images/galeria/foto-grupal-nocturna-640.webp")} 640w, ${asset("images/galeria/foto-grupal-nocturna-1080.webp")} 1080w`}
+                  alt="Grupo de invitados y animadora celebrando en una terraza nocturna"
                   loading="lazy"
                   decoding="async"
                   className="h-full w-full object-cover"
@@ -116,8 +116,9 @@ export function Hero() {
               className="group col-span-2 row-span-3 overflow-hidden rounded-card bg-rosa/40 shadow-[0_18px_40px_-14px_rgba(43,36,56,0.35)]"
             >
 <img
-                  src={asset("images/galeria/foto-grupal-nueva-1080.webp")}
-                  alt="Grupo de niños en una celebración animada por Lulu"
+                  src={asset("images/galeria/foto-grupal-disfraz-1080.webp")}
+                  srcSet={`${asset("images/galeria/foto-grupal-disfraz-640.webp")} 640w, ${asset("images/galeria/foto-grupal-disfraz-1080.webp")} 1080w`}
+                  alt="Animadora y grupo de invitados junto a un personaje disfrazado"
                   loading="lazy"
                   decoding="async"
                   className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"

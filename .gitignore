@@ -21,5 +21,6 @@ Auditorias/
 
 # Imagenes fuente (bruto) - no se suben al repo, solo los WebP optimizados
 fotos/
+heic/
 *.heic
 *.HEIC
